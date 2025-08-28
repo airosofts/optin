@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airo Softs - Shaping The Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '972844930929949');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=972844930929949&ev=PageView&noscript=1"
+      /></noscript>
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://i.ibb.co/MG2PRDC/favicon-16x16.png"
+      type="image/png"
+    />
+  </head>
+
+  <body class="bg-gray-50">
+    <!-- Header -->
+    <header id="main-header" class="bg-white transition-all duration-300">
+        <div class="container mx-auto px-4 md:px-6 py-4 flex justify-between items-center maincontainer">
+          <!-- Logo Section -->
+          <div class="navbar-logo-container">
+            <a href="/"> <img src="../images/Airosofts-LogoBT.png" alt="Logo" class="navbar-logo" /></a>
+           
+          </div>
+      
+          <!-- Desktop Navigation -->
+          <nav>
+            <ul class="menu hidden md:flex list-none space-x-6">
+              <li>
+                <a href="/" class="text-gray-600 hover:text-gray-900 font-medium">Home</a>
+              </li>
+              <li class="relative group">
+                <a href="softwares" class="text-gray-600 hover:text-gray-900 font-medium menu-item">Softwares</a>
+                <ul class="submenu absolute hidden bg-white shadow-lg mt-0 rounded-md list-none py-2 w-64 group-hover:block" style="top: calc(100% + 1px);">
+                  <li>
+                    <a href="https://airoweb.airosofts.com/" class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]">AiroWeb</a>
+                  </li>
+                  <li>
+                    <a href="https://airomaps.airosofts.com/" class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]">AiroMaps</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://xboost.airosofts.com" 
+                      target="_blank"
+                      class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]"
+                      >X/Twitter Engagement Tool</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="relative group">
+                <a href="services" class="text-gray-600 hover:text-gray-900 font-medium menu-item">Services</a>
+                <ul class="submenu absolute hidden bg-white shadow-lg mt-0 rounded-md list-none py-2 w-64 group-hover:block" style="top: calc(100% + 1px);">
+                  <li>
+                    <a href="services#web-development" class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="services#app-development" class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]">App Development</a>
+                  </li>
+                  <li>
+                    <a href="services#software-development" class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]">Software Development</a>
+                  </li>
+                  <li>
+                    <a href="services#ai-bot" class="block px-4 py-2 text-gray-600 hover:text-[#D74B3F]">AI Bot Development</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="pricing" class="text-gray-600 hover:text-gray-900 font-medium menu-item">Pricing</a>
+              </li>
+                <li>
+                <a href="freedemo" class="text-gray-600 hover:text-gray-900 font-medium menu-item">Demo Request</a>
+              </li>
+              <li>
+                <a href="contact" class="text-gray-600 hover:text-gray-900 font-medium menu-item">Contact</a>
+              </li>
+
+              <li>
+                <a href="https://portal.airosofts.com/login.html" target="_blank" class="block bg-[#D74B3F] text-white py-2 px-4 rounded-md font-medium hover:bg-opacity-90">Login</a>
+              </li>
+            </ul>
+          </nav>
+      
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden relative">
+            <button
+              id="menu-btn"
+              class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            >
+              <span class="sr-only">Open sidebar</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                  d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Mobile Sidebar -->
+        <aside
+          id="mobile-sidebar"
+          class="fixed top-0 left-0 z-50 w-64 h-screen bg-white shadow-lg transform -translate-x-full transition-transform"
+        >
+          <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50">
+            <ul class="space-y-2 font-medium">
+              <li>
+                <a href="/" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Home</a>
+              </li>
+              <li>
+                <button
+                  class="flex items-center w-full p-2 text-left text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100"
+                  onclick="toggleSubMenu('softwares-submenu')"
+                >
+                  <span class="flex-1">Softwares</span>
+                  <svg
+                    class="w-3 h-3 transition-transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    ></path>
+                  </svg>
+                </button>
+                <ul id="softwares-submenu" class="hidden py-2 space-y-2 pl-4">
+                  <li>
+                    <a href="https://airoweb.airosofts.com/" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Web Data Extractor</a>
+                  </li>
+                  <li>
+                    <a href="maps" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">AiroWeb</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <button
+                  class="flex items-center w-full p-2 text-left text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100"
+                  onclick="toggleSubMenu('services-submenu')"
+                >
+                  <span class="flex-1">Pricing</span>
+                  <svg
+                    class="w-3 h-3 transition-transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    ></path>
+                  </svg>
+                </button>
+                <ul id="services-submenu" class="hidden py-2 space-y-2 pl-4">
+                  <li>
+                    <a href="services#web-development" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="services#app-development" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">App Development</a>
+                  </li>
+                  <li>
+                    <a href="services#software-development" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Software Development</a>
+                  </li>
+                  <li>
+                    <a href="services#ai-bot" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">AI Bot Development</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="pricing" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Pricing</a>
+              </li>
+                <li>
+                <a href="demorequest" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Pricing</a>
+              </li>
+              <li>
+                <a href="contact" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Contact</a>
+              </li>
+              <li>
+                <a href="https://portal.airosofts.com/login.html" class="block p-2 text-gray-900 rounded-lg hover:bg-gray-100">Login</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      
+        <!-- Overlay -->
+        <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"></div>
+      </header>
+      
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const sidebar = document.getElementById("mobile-sidebar");
+      const overlay = document.getElementById("overlay");
+
+      menuBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("-translate-x-full");
+        overlay.classList.toggle("hidden");
+      });
+
+      overlay.addEventListener("click", () => {
+        sidebar.classList.add("-translate-x-full");
+        overlay.classList.add("hidden");
+      });
+
+      function toggleSubMenu(id) {
+        const submenu = document.getElementById(id);
+        submenu.classList.toggle("hidden");
+      }
+    </script>
+
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+
+      .text-indigo-500 {
+        color: #e7584c; /* Updated color */
+      }
+    </style>
+
+    <style>
+      .menu > li {
+        position: relative;
+      }
+
+      .menu > li > a {
+        display: block;
+        padding: 10px 15px;
+      }
+
+      .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #ffffff; /* White background */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        list-style: none;
+        min-width: 250px;
+        z-index: 10;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      .submenu li a {
+        padding: 10px 15px;
+        color: #4a5568;
+        background-color: white;
+        text-decoration: none;
+      }
+
+      .submenu li a:hover {
+        color: #d74b3f; /* Theme hover color */
+      }
+
+      .menu > li:hover .submenu {
+        display: block;
+        opacity: 1;
+      }
+    </style>
+    <section class="relative bg-white">
+      <div
+        class="container mx-auto px-4 sm:px-6 py-0 flex flex-col-reverse md:flex-row items-center herosec"
+      >
+        <!-- Blob Shape on Left -->
+        <div
+          class="absolute -top-20 -left-20 w-64 h-64 bg-[#D74B3F] rounded-full mix-blend-multiply filter blur-3xl opacity-10"
+        ></div>
+
+        <!-- Play Button Between Text and Image -->
+        <div
+          class="absolute left-[calc(50%+40px)] top-[calc(50%+60px)] flex z-0 play-button-container"
+        >
+          <div
+            class="w-16 h-16 bg-[#D74B3F] rounded-full flex items-center justify-center opacity-90"
+          >
+            <i class="fas fa-play text-white text-xl"></i>
+          </div>
+        </div>
+
+        <!-- Text Section -->
+        <div
+          class="w-full md:w-1/2 text-center md:text-left herotext"
+          style="margin-top: -20px"
+        >
+        <h1
+        class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 headingmainhero"
+      >
+        Expert <span class="text-indigo-500">Web Services</span> Tailored for Your Business Needs
+      </h1>
+          <p class="text-gray-600 text-base sm:text-lg mb-6">
+            From web design to development and optimization, our solutions are crafted to meet your business goals. Let us transform your digital presence.
+          </p>
+          <div class="flex justify-center md:justify-start space-x-4">
+            <a
+              href="https://forms.monday.com/forms/2ebc1892359c683ba2cedca06fdf99a3?r=use1"
+              class="btn-primary text-white px-6 py-3 rounded-md text-lg text-center"
+            >
+              Get Started
+            </a>
+            <a
+              href="services" target="_blank"
+              class="btn-secondary text-[#D74B3F] px-6 py-3 rounded-md text-lg text-center"
+            >
+              More Services
+            </a>
+          </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full md:w-1/2 flex items-start pr-0 heroimg">
+          <img
+            src="images/banner-bg10.png"
+            alt="Hero Image"
+            class="w-full max-w-none rounded-lg"
+            style="width: 140%; margin-left: -30%"
+          />
+        </div>
+      </div>
+
+      <style>
+        img {
+          box-shadow: none;
+        }
+
+        .md\:w-1\/2 {
+          padding-right: 0;
+        }
+        .heroimg {
+          z-index: 0;
+        }
+        .herotext {
+          z-index: 1;
+          padding-left: 20px;
+        }
+
+        /* Hide Play Button in Mobile */
+        @media (max-width: 768px) {
+          .play-button-container {
+            display: none;
+          }
+          .herotext {
+            padding: 60px 20px; /* Adjusted padding for mobile */
+            margin-top: 0;
+          }
+          .heroimg {
+            display: none; /* Hide the image on mobile */
+          }
+          .btn-primary,
+          .btn-secondary {
+            font-size: 14px; /* Adjust button font size */
+            padding: 10px 20px; /* Adjust padding for mobile */
+          }
+        }
+        .headingmainhero {
+          line-height: 1.3em;
+        }
+        @media (max-width: 768px) {
+          .headingmainhero {
+            line-height: 1.5em;
+          }
+        }
+        /* Button Styles */
+        .btn-primary {
+          background-color: #e7584c;
+          transition: background-color 0.2s ease;
+        }
+        .btn-primary:hover {
+          background-color: #b84035;
+        }
+        .btn-secondary {
+          background-color: #f9fafb;
+          transition: background-color 0.2s ease;
+        }
+        .btn-secondary:hover {
+          background-color: #e5e7eb;
+        }
+      </style>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="bg-gradient-to-br from-gray-50 to-white py-16 relative">
+      <!-- Decorative Elements -->
+      <div class="absolute top-0 left-0 w-48 h-48 bg-[#D74B3F] opacity-20 rounded-full blur-xl"></div>
+      <div class="absolute bottom-0 right-0 w-64 h-64 bg-indigo-500 opacity-10 rounded-full blur-2xl"></div>
+    
+      <div class="container mx-auto px-6 sm:px-12 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-800">
+            About Our Services
+          </h2>
+          <p class="mt-4 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+            Combining innovation, expertise, and a customer-first approach, we deliver web solutions that empower businesses to grow and thrive.
+          </p>
+        </div>
+    
+        <!-- Feature Blocks -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Feature 1 -->
+          <div class="p-8 bg-white shadow-lg rounded-2xl transition-transform transform hover:scale-105">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mb-6 mx-auto">
+              <i class="fas fa-user-cog text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Expertise
+            </h3>
+            <p class="text-gray-600 text-center">
+              Harnessing years of experience, we provide top-tier web solutions designed to meet your unique goals and drive business success.
+            </p>
+          </div>
+    
+          <!-- Feature 2 -->
+          <div class="p-8 bg-white shadow-lg rounded-2xl transition-transform transform hover:scale-105">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mb-6 mx-auto">
+              <i class="fas fa-lightbulb text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Innovation
+            </h3>
+            <p class="text-gray-600 text-center">
+              Leveraging cutting-edge technologies, we craft modern, scalable, and secure solutions that align with your vision and future growth.
+            </p>
+          </div>
+    
+          <!-- Feature 3 -->
+          <div class="p-8 bg-white shadow-lg rounded-2xl transition-transform transform hover:scale-105">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mb-6 mx-auto">
+              <i class="fas fa-handshake text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Customer-Centric
+            </h3>
+            <p class="text-gray-600 text-center">
+              We prioritize your goals, providing tailored solutions and ensuring a seamless, client-focused experience from start to finish.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bg-gradient-to-r from-white to-gray-100 py-20">
+      <div class="container mx-auto px-6 sm:px-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-extrabold text-gray-800">
+            Our Offerings
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            Explore our range of premium web services designed to meet your business needs with innovation and excellence.
+          </p>
+        </div>
+    
+        <!-- Service Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Card 1 -->
+          <div class="p-8 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mx-auto mb-6">
+              <i class="fas fa-pencil-ruler text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Web Design (UI/UX)
+            </h3>
+            <p class="text-gray-600 text-center">
+              Craft visually appealing designs focused on user experience, ensuring your brand stands out.
+            </p>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="p-8 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mx-auto mb-6">
+              <i class="fas fa-code-branch text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Web Development
+            </h3>
+            <p class="text-gray-600 text-center">
+              Develop robust, scalable websites using modern technologies to ensure a flawless experience.
+            </p>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="p-8 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mx-auto mb-6">
+              <i class="fas fa-shopping-cart text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              E-commerce Solutions
+            </h3>
+            <p class="text-gray-600 text-center">
+              Build feature-rich online stores with seamless payment integrations and a user-friendly interface.
+            </p>
+          </div>
+    
+          <!-- Card 4 -->
+          <div class="p-8 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mx-auto mb-6">
+              <i class="fas fa-chart-line text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              SEO & Optimization
+            </h3>
+            <p class="text-gray-600 text-center">
+              Enhance your online presence with cutting-edge SEO and performance optimization strategies.
+            </p>
+          </div>
+    
+          <!-- Card 5 -->
+          <div class="p-8 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mx-auto mb-6">
+              <i class="fas fa-server text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Web Hosting & Maintenance
+            </h3>
+            <p class="text-gray-600 text-center">
+              Reliable hosting and proactive maintenance to ensure your website performs at its best.
+            </p>
+          </div>
+    
+          <!-- Card 6 -->
+          <div class="p-8 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div class="flex items-center justify-center w-16 h-16 bg-[#D74B3F] text-white rounded-full mx-auto mb-6">
+              <i class="fas fa-tools text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-4">
+              Custom Web Applications
+            </h3>
+            <p class="text-gray-600 text-center">
+              Tailor-made web applications to streamline your workflows and meet your specific business goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-900 text-white py-20">
+      <div class="container mx-auto px-6 sm:px-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-extrabold">
+            Why Choose Us?
+          </h2>
+          <p class="mt-4 text-lg max-w-2xl mx-auto text-gray-300">
+            Empower your business with our expertise, innovation, and commitment to delivering results.
+          </p>
+        </div>
+    
+        <!-- Features Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Feature 1 -->
+          <div class="flex items-start space-x-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-[#D74B3F] text-white rounded-full flex items-center justify-center">
+                <i class="fas fa-users text-2xl"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Experienced Developers</h3>
+              <p class="mt-2 text-gray-400">
+                Our team of experts has extensive experience delivering cutting-edge solutions for diverse industries.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Feature 2 -->
+          <div class="flex items-start space-x-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-[#D74B3F] text-white rounded-full flex items-center justify-center">
+                <i class="fas fa-cogs text-2xl"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Custom Solutions</h3>
+              <p class="mt-2 text-gray-400">
+                We tailor every solution to fit your unique business needs, ensuring seamless integration and scalability.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Feature 3 -->
+          <div class="flex items-start space-x-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-[#D74B3F] text-white rounded-full flex items-center justify-center">
+                <i class="fas fa-clock text-2xl"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Timely Delivery</h3>
+              <p class="mt-2 text-gray-400">
+                We are committed to delivering every project on time, without compromising on quality or attention to detail.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Feature 4 -->
+          <div class="flex items-start space-x-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-[#D74B3F] text-white rounded-full flex items-center justify-center">
+                <i class="fas fa-shield-alt text-2xl"></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">Scalable & Secure</h3>
+              <p class="mt-2 text-gray-400">
+                Our solutions are built to grow with your business, prioritizing security and reliability every step of the way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Customer Review Section -->
+    <section class="bg-gray-50 py-20">
+      <div class="container mx-auto px-6 sm:px-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-extrabold text-gray-800">
+            Technologies We Work With
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+            Explore the platforms and technologies we excel in, delivering tailored solutions for your business.
+          </p>
+        </div>
+    
+        <!-- Technology Categories -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+          <!-- Custom Solutions -->
+          <div>
+            <h3 class="text-2xl font-bold text-[#D74B3F] mb-6">Custom Solutions</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Java
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Python
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                PHP
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                C++
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Kotlin
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Swift
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Custom Web Development
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Tailored CMS Solutions
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Enterprise Applications
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Custom APIs
+              </span>
+            </div>
+          </div>
+    
+          <!-- WordPress Solutions -->
+          <div>
+            <h3 class="text-2xl font-bold text-[#D74B3F] mb-6">WordPress</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Website Redesigning
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                WooCommerce Stores
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Migration Services
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Performance Optimization
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Custom Landing Pages
+              </span>
+            </div>
+          </div>
+    
+          <!-- Shopify Solutions -->
+          <div>
+            <h3 class="text-2xl font-bold text-[#D74B3F] mb-6">Shopify</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Custom Store Design
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Shopify Plus Solutions
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Payment Gateways
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Multi-Currency Setup
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Shopify App Development
+              </span>
+            </div>
+          </div>
+    
+          <!-- Frameworks -->
+          <div>
+            <h3 class="text-2xl font-bold text-[#D74B3F] mb-6">Frameworks</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                React
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Angular
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Vue
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Node.js
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Django
+              </span>
+            </div>
+          </div>
+    
+          <!-- Mobile Development -->
+          <div>
+            <h3 class="text-2xl font-bold text-[#D74B3F] mb-6">Mobile Development</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                iOS
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Android
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                React Native
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Flutter
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Xamarin
+              </span>
+            </div>
+          </div>
+    
+          <!-- Database Management -->
+          <div>
+            <h3 class="text-2xl font-bold text-[#D74B3F] mb-6">Database Management</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                MySQL
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                PostgreSQL
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                MongoDB
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Oracle SQL
+              </span>
+              <span class="px-4 py-2 bg-white rounded-full shadow text-gray-800 text-sm font-medium hover:shadow-md">
+                Microsoft SQL
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <section class="bg-gray-50 py-20">
+      <div class="container mx-auto px-6 sm:px-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-extrabold text-gray-800">
+            Our Portfolio
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+            Explore our success stories and see how we’ve delivered exceptional solutions for our clients.
+          </p>
+        </div>
+    
+        <!-- Portfolio Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Project 1 -->
+          <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img
+              src="images/mg1.png"
+              alt="Project 1"
+              class="rounded-t-lg w-full object-cover h-48"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Staffing Company Website</h3>
+              <p class="text-gray-600 mb-4">
+                Equipped with seamless CRM integrations and tailored to meet the unique needs of staffing companies, this website ensures efficiency and scalability
+              </p>
+              <a
+                href="https://ablemansuccess.co/"
+                class="text-[#D74B3F] font-medium hover:underline"
+                target="_blank"
+              >
+                View Live Project
+              </a>
+            </div>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img
+              src="images/img2.png"
+              alt="Project 2"
+              class="rounded-t-lg w-full object-cover h-48"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Real Estate Company Website</h3>
+              <p class="text-gray-600 mb-4">
+                Featuring advanced SEO optimization, responsive layouts, and a sleek design, this solution is tailored to elevate your real estate business's online presence.
+              </p>
+              <a
+                href="https://ableman.co/"
+                class="text-[#D74B3F] font-medium hover:underline"
+                target="_blank"
+              >
+                View Live Project
+              </a>
+            </div>
+          </div>
+    
+          <!-- Project 3 -->
+          <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img
+              src="images/img3.png"
+              alt="Project 3"
+              class="rounded-t-lg w-full object-cover h-48"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Custom Patches Website</h3>
+              <p class="text-gray-600 mb-4">
+                Crafted a sleek and user-friendly WordPress site for Custom Patches Miami, showcasing vibrant designs and seamless navigation.              </p>
+              <a
+                href="https://todaypatches.com/"
+                class="text-[#D74B3F] font-medium hover:underline"
+                target="_blank"
+              >
+                View Live Project
+              </a>
+            </div>
+          </div>
+    
+          <!-- Add more projects as needed -->
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-50 py-20">
+      <div class="container mx-auto px-6 sm:px-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-extrabold text-gray-800">
+            Our Workflow Process
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+            Discover our step-by-step approach to delivering exceptional results for every project.
+          </p>
+        </div>
+    
+        <!-- Workflow Steps -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Step 1 -->
+          <div class="relative p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 group">
+            <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center bg-[#D74B3F] text-white text-sm font-bold rounded-lg opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+              01
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <i class="fas fa-comments text-3xl text-[#D74B3F]"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Consultation</h3>
+            <p class="text-gray-600 text-center">
+              Understand your business goals, challenges, and project requirements through detailed discussions.
+            </p>
+          </div>
+    
+          <!-- Step 2 -->
+          <div class="relative p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 group">
+            <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center bg-[#D74B3F] text-white text-sm font-bold rounded-lg opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+              02
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <i class="fas fa-project-diagram text-3xl text-[#D74B3F]"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Planning</h3>
+            <p class="text-gray-600 text-center">
+              Develop a comprehensive plan, define milestones, and outline the roadmap to achieve your goals.
+            </p>
+          </div>
+    
+          <!-- Step 3 -->
+          <div class="relative p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 group">
+            <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center bg-[#D74B3F] text-white text-sm font-bold rounded-lg opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+              03
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <i class="fas fa-pencil-ruler text-3xl text-[#D74B3F]"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Design</h3>
+            <p class="text-gray-600 text-center">
+              Create intuitive and visually appealing designs that align with your brand identity.
+            </p>
+          </div>
+    
+          <!-- Step 4 -->
+          <div class="relative p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 group">
+            <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center bg-[#D74B3F] text-white text-sm font-bold rounded-lg opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+              04
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <i class="fas fa-code text-3xl text-[#D74B3F]"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Development</h3>
+            <p class="text-gray-600 text-center">
+              Build scalable and robust solutions using the latest technologies and best practices.
+            </p>
+          </div>
+    
+          <!-- Step 5 -->
+          <div class="relative p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 group">
+            <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center bg-[#D74B3F] text-white text-sm font-bold rounded-lg opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+              05
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <i class="fas fa-check-circle text-3xl text-[#D74B3F]"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Testing & Launch</h3>
+            <p class="text-gray-600 text-center">
+              Conduct thorough testing and ensure a smooth launch for a flawless user experience.
+            </p>
+          </div>
+    
+          <!-- Step 6 -->
+          <div class="relative p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 group">
+            <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center bg-[#D74B3F] text-white text-sm font-bold rounded-lg opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+              06
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <i class="fas fa-tools text-3xl text-[#D74B3F]"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Maintenance</h3>
+            <p class="text-gray-600 text-center">
+              Provide ongoing support, updates, and optimizations to ensure long-term success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-50 py-20">
+  <div class="container mx-auto px-6 sm:px-10">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-extrabold text-gray-800">
+        Our Domain <span class="text-[#D74B3F]">Diversity</span>
+      </h2>
+      <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+        Explore the industries we serve, delivering tailored solutions across various sectors.
+      </p>
+    </div>
+
+    <!-- Domain Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <!-- eCommerce -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-shopping-cart text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">eCommerce</h3>
+      </div>
+
+      <!-- Fintech -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-coins text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Fintech</h3>
+      </div>
+
+      <!-- Healthcare -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-heartbeat text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Healthcare</h3>
+      </div>
+
+      <!-- Education -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-graduation-cap text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Education</h3>
+      </div>
+
+      <!-- Social Networking -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-share-alt text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Social Networking</h3>
+      </div>
+
+      <!-- Hospitality -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-bed text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Hospitality</h3>
+      </div>
+
+      <!-- Entertainment -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-music text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Entertainment</h3>
+      </div>
+
+      <!-- Government -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-university text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Government</h3>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-building text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Real Estate</h3>
+      </div>
+
+      <!-- Business -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-briefcase text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Business</h3>
+      </div>
+
+      <!-- Logistics -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-truck text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Logistics</h3>
+      </div>
+
+      <!-- Tech & IT -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-laptop-code text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Tech & IT</h3>
+      </div>
+
+      <!-- Non-Profit -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-hands-helping text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Non-Profit</h3>
+      </div>
+
+      <!-- Automotive -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-car text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Automotive</h3>
+      </div>
+
+      <!-- Travel & Tourism -->
+      <div class="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+        <i class="fas fa-plane text-3xl text-[#D74B3F] mb-4"></i>
+        <h3 class="text-lg font-semibold text-gray-800">Travel & Tourism</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="testimonial-section bg-gray-50 py-16 px-4 relative">
+  <h2 class="text-4xl font-extrabold text-center mb-12" style="color: #D74B3F;">What Our Clients Say</h2>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide p-4">
+          <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Jane Smith" class="w-20 h-20 rounded-full mb-4 shadow">
+            <h3 class="text-lg font-semibold">Jane Smith</h3>
+            <p class="text-sm text-gray-500">Marketing Manager</p>
+            <p class="mt-4 text-gray-700">"The team exceeded our expectations! Their work significantly boosted our engagement. Highly recommend their services for anyone seeking quality work!"</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide p-4">
+          <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Brown" class="w-20 h-20 rounded-full mb-4 shadow">
+            <h3 class="text-lg font-semibold">Michael Brown</h3>
+            <p class="text-sm text-gray-500">Startup Founder</p>
+            <p class="mt-4 text-gray-700">"Their expertise in Shopify development helped my business grow immensely. I was impressed by their professionalism and dedication throughout the project."</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide p-4">
+          <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Johnson" class="w-20 h-20 rounded-full mb-4 shadow">
+            <h3 class="text-lg font-semibold">Emily Johnson</h3>
+            <p class="text-sm text-gray-500">Creative Director</p>
+            <p class="mt-4 text-gray-700">"Their attention to detail and creativity are top-notch. They delivered a sleek, user-friendly website aligned perfectly with our brand and vision."</p>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="swiper-slide p-4">
+          <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition">
+            <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="Sarah Lee" class="w-20 h-20 rounded-full mb-4 shadow">
+            <h3 class="text-lg font-semibold">Sarah Lee</h3>
+            <p class="text-sm text-gray-500">E-commerce Manager</p>
+            <p class="mt-4 text-gray-700">"Incredible results! They transformed our online store, improving user experience and boosting sales. Very happy with the outcome!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation buttons -->
+    <div class="absolute top-1/2 transform -translate-y-1/2 -left-6 sm:-left-12">
+      <div class="swiper-button-prev text-4xl cursor-pointer" style="color: #D74B3F;"></div>
+    </div>
+    <div class="absolute top-1/2 transform -translate-y-1/2 -right-6 sm:-right-12">
+      <div class="swiper-button-next text-4xl cursor-pointer" style="color: #D74B3F;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Include Swiper.js -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    },
+    loop: true,
+  });
+</script>
+
+<div class="faq-section bg-gray-50 py-16 px-6">
+  <h2 class="text-4xl font-extrabold text-center mb-12" style="color: #D74B3F;">Frequently Asked Questions</h2>
+  <div class="max-w-5xl mx-auto space-y-8">
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        How long does it take to redesign a website?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        Redesigning a website usually takes 3-6 weeks, depending on the complexity, features, and content requirements.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        How do you ensure the website aligns with my brand during redesigning?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        We collaborate closely with you during the redesign process, incorporating your feedback, brand guidelines, and target audience preferences.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        What technologies do you use for web development?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        We work with cutting-edge technologies like HTML, CSS, JavaScript, React, Angular, WordPress, Shopify, and more, ensuring scalability and performance.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        How do you ensure the website is mobile-friendly?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        Every website we build or redesign is fully responsive, ensuring optimal performance and usability on all devices, including mobile, tablets, and desktops.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        Do you provide ongoing website maintenance?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        Yes, we offer comprehensive website maintenance packages, including regular updates, security monitoring, and performance optimization.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        Can you integrate third-party tools or APIs into my website?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        Absolutely. We have extensive experience integrating third-party tools, APIs, payment gateways, and other features to enhance your website’s functionality.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        Will you provide training after the website is completed?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        Yes, we provide training sessions and documentation to ensure you can manage your website efficiently post-launch.
+      </p>
+    </details>
+    <!-- FAQ Item -->
+    <details class="bg-white border rounded-lg shadow-md p-5 group">
+      <summary class="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-800">
+        How do you ensure website security?
+        <svg class="w-6 h-6 text-gray-500 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <p class="mt-3 text-gray-600">
+        We implement best practices like SSL encryption, regular security updates, firewalls, and malware scanning to keep your website secure.
+      </p>
+    </details>
+  </div>
+</div>
+
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <section class="relative bg-white py-16 overflow-hidden">
+      <!-- Short Floating Shapes -->
+      <div class="absolute top-5 left-5 w-12 h-12 bg-[#D74B3F] opacity-20 rotate-45"></div>
+      <div class="absolute bottom-10 right-5 w-10 h-10 bg-gray-500 opacity-10 rotate-45"></div>
+      <div class="absolute top-20 right-10 w-14 h-14 bg-gray-300 opacity-30 rotate-45"></div>
+    
+      <div class="container mx-auto px-6 lg:px-20 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+          <!-- Left Content -->
+          <div class="space-y-6">
+            <h2 class="text-3xl lg:text-5xl font-bold text-gray-900 leading-snug">
+              Ready to <span class="text-[#D74B3F]">Bring Your Vision</span> to Life?
+            </h2>
+            <p class="text-lg text-gray-600">
+              Share your project ideas with us, and we’ll turn them into reality.
+              Whether it's a fresh website design, redesign, or ongoing maintenance,
+              we’re here to help.
+            </p>
+            <ul class="space-y-4">
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#D74B3F] text-white text-sm font-bold">1</span>
+                <span class="ml-4 text-gray-700">Custom Web Development</span>
+              </li>
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#D74B3F] text-white text-sm font-bold">2</span>
+                <span class="ml-4 text-gray-700">Website Redesign</span>
+              </li>
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center rounded-lg bg-[#D74B3F] text-white text-sm font-bold">3</span>
+                <span class="ml-4 text-gray-700">Ongoing Maintenance</span>
+              </li>
+            </ul>
+          </div>
+    
+          <!-- Right Form -->
+          <div class="bg-white shadow-lg rounded-lg p-8">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Contact Us</h3>
+            <p class="text-gray-600 mb-6">Fill in the form, and we’ll reach out shortly.</p>
+            <form id="projectForm" onsubmit="handleProjectSubmit(event)">
+              <div class="space-y-4">
+                <input
+                  type="text"
+                  id="projectName"
+                  name="projectName"
+                  placeholder="Your Name"
+                  class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#D74B3F] focus:outline-none"
+                  required
+                />
+                <input
+                  type="email"
+                  id="projectEmail"
+                  name="projectEmail"
+                  placeholder="Your Email"
+                  class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#D74B3F] focus:outline-none"
+                  required
+                />
+                <input
+                  type="tel"
+                  id="projectPhone"
+                  name="projectPhone"
+                  placeholder="Your Phone"
+                  class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#D74B3F] focus:outline-none"
+                  required
+                />
+                <textarea
+                  id="projectDescription"
+                  name="projectDescription"
+                  placeholder="Tell us about your project"
+                  class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#D74B3F] focus:outline-none h-32"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="mt-6 w-full py-3 rounded-lg bg-[#D74B3F] text-white font-semibold hover:bg-[#c34338] transition"
+              >
+                Submit
+              </button>
+            </form>
+            <div id="projectResponseMessage" class="hidden mt-4 text-sm rounded-lg" role="alert"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      const handleProjectSubmit = async (event) => {
+        event.preventDefault();
+    
+        const nameInput = document.getElementById("projectName");
+        const emailInput = document.getElementById("projectEmail");
+        const phoneInput = document.getElementById("projectPhone");
+        const descriptionInput = document.getElementById("projectDescription");
+        const responseMessage = document.getElementById("projectResponseMessage");
+    
+        const name = nameInput.value;
+        const email = emailInput.value;
+        const phone = phoneInput.value;
+        const description = descriptionInput.value;
+    
+        responseMessage.className = "hidden mt-4 text-sm rounded-lg";
+        responseMessage.innerHTML = "";
+    
+        try {
+          const response = await fetch(
+            "https://webtrial-production.up.railway.app/store-project",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ name, email, phone, description }),
+            }
+          );
+    
+          const data = await response.json();
+    
+          if (response.ok && data.success) {
+            responseMessage.className = "mt-4 p-4 text-green-800 bg-green-50 border border-green-300";
+            responseMessage.innerHTML = `<strong>Success!</strong> We'll get back to you shortly.`;
+            nameInput.value = "";
+            emailInput.value = "";
+            phoneInput.value = "";
+            descriptionInput.value = "";
+          } else {
+            responseMessage.className = "mt-4 p-4 text-red-800 bg-red-50 border border-red-300";
+            responseMessage.innerHTML = `<strong>Error!</strong> ${data.message || "Please try again later."}`;
+          }
+        } catch (error) {
+          responseMessage.className = "mt-4 p-4 text-red-800 bg-red-50 border border-red-300";
+          responseMessage.innerHTML = `<strong>Error!</strong> Unable to send data.`;
+        }
+      };
+    </script>
+    
+
+    <footer class="relative bg-gray-900 text-gray-200 py-16">
+      <!-- Decorative Blobs -->
+      <div
+        class="absolute -top-10 left-10 w-60 h-60 bg-[#E7584C] rounded-full mix-blend-multiply filter blur-3xl opacity-20"
+      ></div>
+      <div
+        class="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"
+      ></div>
+      <div
+        class="absolute top-20 right-20 w-40 h-40 bg-[#E7584C] rounded-full mix-blend-multiply filter blur-2xl opacity-15"
+      ></div>
+    
+      <div class="container mx-auto px-6 sm:px-12 relative z-10">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left"
+        >
+          <!-- Logo and Company Info -->
+          <div class="flex flex-col items-center md:items-start">
+            <div class="flex items-center mb-4 justify-center md:justify-start">
+              <img
+                src="images/airofooter.png"
+                alt="Airo Softs Logo"
+                class="h-12 w-auto"
+              />
+            </div>
+            <p class="text-gray-400 leading-relaxed text-center md:text-left">
+              We provide advanced data extraction tools that capture critical
+              information from various platforms, helping businesses save time
+              and boost efficiency.
+            </p>
+          </div>
+    
+          <!-- Newsletter -->
+          <div class="flex flex-col items-center md:items-start">
+            <h3 class="text-xl font-semibold text-white mb-4">Stay Updated</h3>
+            <p class="text-gray-400 mb-4 text-center md:text-left">
+              Subscribe to our newsletter to get the latest updates and news.
+            </p>
+            <!-- Newsletter Section with API Integration -->
+            <form
+              id="newsletterForm"
+              class="flex flex-col sm:flex-row sm:space-x-2 items-center md:items-start w-full max-w-xs"
+              onsubmit="handleNewsletterSubmit(event)"
+            >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="w-full px-4 py-2 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#E7584C] text-gray-200 mb-4 sm:mb-0"
+                required
+              />
+              <button
+                type="submit"
+                class="bg-[#E7584C] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#d64d42] transition"
+              >
+                Subscribe
+              </button>
+            </form>
+    
+            <!-- Response Alert Section -->
+            <div
+              id="responseMessage"
+              class="hidden p-4 mb-4 mt-4 text-sm rounded-lg"
+              role="alert"
+            ></div>
+    
+            <script>
+              const handleNewsletterSubmit = async (event) => {
+                event.preventDefault();
+    
+                const emailInput = document.getElementById("email");
+                const responseMessage =
+                  document.getElementById("responseMessage");
+                const email = emailInput.value;
+    
+                // Reset response message
+                responseMessage.className =
+                  "hidden p-4 mb-4 mt-4 text-sm rounded-lg";
+                responseMessage.innerHTML = "";
+    
+                try {
+                  const response = await fetch(
+                    "https://webtrial-production.up.railway.app/store-email?email=" +
+                      encodeURIComponent(email)
+                  );
+                  const data = await response.json();
+    
+                  if (response.ok && data.success) {
+                    responseMessage.className =
+                      "p-4 mb-4 mt-4 text-sm text-green-800 rounded-lg bg-green-50";
+                    responseMessage.innerHTML = `<span class="font-medium">Success!</span> Email Successfully saved to our NewsLetter`;
+                    emailInput.value = "";
+                  } else {
+                    responseMessage.className =
+                      "p-4 mb-4 mt-4 text-sm text-red-800 rounded-lg bg-red-50";
+                    responseMessage.innerHTML = `<span class="font-medium">Error!</span> ${
+                      data.message || "Something went wrong. Please try again."
+                    }`;
+                  }
+                } catch (error) {
+                  responseMessage.className =
+                    "p-4 mb-4 mt-4 text-sm text-red-800 rounded-lg bg-red-50";
+                  responseMessage.innerHTML = `<span class="font-medium">Error!</span> Failed to subscribe. Please try again later.`;
+                }
+              };
+            </script>
+          </div>
+    
+          <!-- Social Media -->
+          <div class="flex flex-col items-center md:items-start">
+            <h3 class="text-xl font-semibold text-white mb-4">Follow Us</h3>
+            <p class="text-gray-400 mb-4 text-center md:text-left">
+              Stay connected with us on social platforms.
+            </p>
+            <div class="flex space-x-4 justify-center md:justify-start">
+              <a
+                href="https://www.facebook.com/airosoftsllc"
+                target="_blank"
+                class="bg-gray-800 w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#E7584C] transition"
+              >
+                <i class="fab fa-facebook-f text-white"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/airosoftsllc"
+                target="_blank"
+                class="bg-gray-800 w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#E7584C] transition"
+              >
+                <i class="fab fa-linkedin-in text-white"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="mt-12 text-center border-t border-gray-800 pt-6">
+          <p class="text-gray-400">
+            © 2025 Airosofts LLC. All rights reserved. Designed and developed by
+            <span class="text-[#E7584C]">Airosofts LLC</span>.
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+  
+    <!-- Font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // JavaScript to handle the mobile menu toggle
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+          mobileMenu.classList.toggle("hidden");
+        });
+      });
+    </script>
+
+    <!-- Counter-Up Script -->
+    <script>
+      // Sticky Header Logic
+      const header = document.getElementById("main-header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 80) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      });
+    </script>
+  </body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+<script>
+  document.querySelectorAll(".menu-item").forEach((item) => {
+    item.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default navigation
+      NProgress.start(); // Start the loading bar
+
+      // Simulate page load with setTimeout
+      setTimeout(() => {
+        window.location.href = this.href; // Navigate to the URL
+      }, 1000); // Adjust the timeout as needed
+    });
+  });
+</script>
